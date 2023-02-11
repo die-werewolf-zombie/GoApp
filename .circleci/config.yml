@@ -25,6 +25,7 @@ workflows:
             - run:
                 command: echo "upload artifact to s3"
             - jira/notify # Runs the Jira's "notify" commands
+            - jira/notify:
+                environment_type: production
+                job_type: deployment
 
-
-  
