@@ -2,7 +2,7 @@
 
 # Start from the latest golang base image
 FROM golang:latest
-
+ 
 # Add Maintainer Info
 LABEL maintainer="Nofar Bluestein <nofarb@gmail.com>"
 
