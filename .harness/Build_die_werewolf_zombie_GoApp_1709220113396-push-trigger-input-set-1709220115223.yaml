@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_die_werewolf_zombie_GoApp_1709220113396-push-trigger-input-set
+  identifier: Build_die_werewolf_zombie_GoApp_1709220113396pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test_flag_defaults
+  pipeline:
+    identifier: Build_die_werewolf_zombie_GoApp_1709220113396
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
