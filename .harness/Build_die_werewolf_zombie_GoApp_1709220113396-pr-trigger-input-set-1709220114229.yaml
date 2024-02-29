@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_die_werewolf_zombie_GoApp_1709220113396-pr-trigger-input-set
+  identifier: Build_die_werewolf_zombie_GoApp_1709220113396prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test_flag_defaults
+  pipeline:
+    identifier: Build_die_werewolf_zombie_GoApp_1709220113396
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
